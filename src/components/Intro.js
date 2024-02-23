@@ -1,0 +1,30 @@
+import React from "react";
+
+import "../styles/Intro.css";
+
+export default function Intro() {
+  return (
+    <div className="intro">
+      <div className="portfolioInfo">
+        <div className="portfolioInfoContent">
+          <div>
+            <h2> designed for nature lovers</h2>
+          </div>
+          <div>
+            <p>
+              We're a duo of visual enchantment, weaving our photographic charm
+              amidst the whispering trees! Nestled in the mystical embrace of
+              the Yarra Valley and the captivating Dandenong region of Victoria,
+              our mission is to choreograph a dance between you and nature.
+            </p>
+            <p>
+              We craft images that become timeless love affairs, each glance a
+              rekindling of your special day. Moody and profound undertones? Oh,
+              they're our artistic heartbeat!
+            </p>
+          </div>{" "}
+        </div>
+      </div>
+    </div>
+  );
+}

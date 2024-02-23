@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+/*    */
+
+@font-face {
+  font-family: "NewYork"; /*Can be any text*/
+  src: local("NewYork"), url("./fonts/NewYork.otf") format("opentype");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-fluid {
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-link,
+.navbar-brand {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-family: "NewYork";
+  color: #fff;
+
+  text-align: center;
+  font-size: 8.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.875rem; /* 84.615% */
+}
+
+h2 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 2rem;
+  color: #636852;
+  align-self: stretch;
+  letter-spacing: 0.13125rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #595454;
+  align-self: stretch;
+  opacity: 0.9;
+  line-height: 1.5rem; /* 166.667% */
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.125rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 6rem;
   }
+}
+
+@media (min-width: 1281px) {
 }

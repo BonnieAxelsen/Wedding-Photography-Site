@@ -1,0 +1,47 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.5rem 15rem;
+}
+
+.portfolioInfo {
+  display: flex;
+  width: 100%; /* Content takes up 70% of the width */
+  padding: 3.75rem 0rem 3.75rem 5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-left: 2px solid rgba(89, 84, 84, 0.2);
+}
+
+.portfolioInfoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+@media (max-width: 480px) {
+  .intro {
+    padding: 3.5rem;
+  }
+
+  .portfolioInfo {
+    padding: 3.75rem 0rem 3.75rem 2.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    padding: 10.5rem 8.5rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  body {
+  }
+}
