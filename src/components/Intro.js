@@ -8,7 +8,7 @@ export default function Intro() {
       <div className="portfolioInfo">
         <div className="portfolioInfoContent">
           <div>
-            <h2> designed for nature lovers</h2>
+            <h3> designed for nature lovers</h3>
           </div>
           <div>
             <p>

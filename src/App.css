@@ -5,27 +5,47 @@
   src: local("NewYork"), url("./fonts/NewYork.otf") format("opentype");
 }
 
+:root {
+  --primary-color: #636852;
+  --secondary-color: #595454;
+  --tertiary-color: rgba(238, 228, 204, 0.2);
+  --contrast-color: #ffffff;
+
+  --heading-font-family: "NewYork";
+  --subheading-font-family: "Alegreya Sans SC", sans-serif;
+  --content-font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .container-fluid {
   padding: 0;
 }
 
-.nav-link,
-.navbar-brand {
-  color: white;
-}
+/*Fonts*/
 
 h1,
-h2,
-h3,
-h4,
-h5 {
+h2 {
+  font-family: var(--heading-font-family);
   margin-bottom: 0;
 }
 
-h1 {
-  font-family: "NewYork";
-  color: #fff;
+h3,
+h4 {
+  font-family: var(--subheading-font-family);
+  margin-bottom: 0;
+}
 
+p {
+  font-family: var(--text-font-family);
+}
+
+/*Text*/
+
+h1 {
+  color: var(--contrast-color);
   text-align: center;
   font-size: 8.125rem;
   font-style: normal;
@@ -34,18 +54,21 @@ h1 {
 }
 
 h2 {
-  font-family: "Alegreya Sans SC", sans-serif;
+  color: var(--contrast-color);
+}
+
+h3 {
   font-size: 2rem;
-  color: #636852;
+  color: var(--primary-color);
   align-self: stretch;
   letter-spacing: 0.13125rem;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
   font-size: 0.85rem;
   font-weight: 300;
-  color: #595454;
+  color: var(--secondary-color);
+
   align-self: stretch;
   opacity: 0.9;
   line-height: 1.5rem; /* 166.667% */
