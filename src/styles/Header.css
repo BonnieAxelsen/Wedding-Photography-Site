@@ -1,5 +1,24 @@
 /*    */
 
+header {
+  padding: 1.5rem 0;
+}
+
+/*    */
+
+.header-logo {
+  position: absolute;
+  display: inline-grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0 2rem;
+}
+
 .navbar-brand {
   font-family: var(--heading-font-family);
   color: var(--contrast-color);
@@ -11,10 +30,54 @@
   color: var(--contrast-color);
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1.5px solid #fff;
+  color: var(--contrast-color);
+  text-align: center;
+}
+
 .spectra {
   color: var(--primary-color);
+  margin-left: 0.5rem;
+}
+
+.navbar-toggler {
+  border: 0;
+  padding: 0;
 }
 
 .offcanvas-body {
   justify-content: end;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../images/Hamburger.svg");
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    justify-content: flex-end;
+    padding: 0 1.5rem;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .header-logo {
+    justify-content: start;
+    margin-left: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1281px) {
 }
