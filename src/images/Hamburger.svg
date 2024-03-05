@@ -1,5 +1,5 @@
 <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line y1="1" x2="40" y2="1" stroke="white" stroke-width="2"/>
-<line x1="14" y1="16" x2="40" y2="16" stroke="white" stroke-width="2"/>
-<line y1="31" x2="40" y2="31" stroke="white" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 2H0V0H40V2Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 17L14 17V15L40 15V17Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40 32H0V30H40V32Z" fill="white"/>
 </svg>

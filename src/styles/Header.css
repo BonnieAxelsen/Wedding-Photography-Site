@@ -1,22 +1,31 @@
-/*    */
+/* header */
 
 header {
-  padding: 1.5rem 0;
+  padding: 1.5rem 2rem;
 }
 
-/*    */
+/* header title */
 
-.header-logo {
+.header-title {
   position: absolute;
-  display: inline-grid;
+}
+
+.title-edit {
+  color: var(--primary-color);
+  margin-left: 0.5rem;
+}
+
+/* nav */
+
+.nav {
+  display: flex;
+  align-content: center;
   justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .navbar {
   width: 100%;
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .navbar-brand {
@@ -28,12 +37,39 @@ header {
   font-family: var(--subheading-font-family);
   font-weight: lighter;
   color: var(--contrast-color);
+  text-align: center;
+  letter-spacing: 0.075rem;
 }
+
+.nav-link:hover {
+  color: var(--contrast-color);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.navbar-toggler {
+  border: 0;
+  padding: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../images/Hamburger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  opacity: 0.5;
+}
+
+/* logo */
 
 .logo {
   display: flex;
   justify-content: center;
-  align-content: center;
   border-radius: 50%;
   width: 2.5rem;
   height: 2.5rem;
@@ -42,41 +78,31 @@ header {
   text-align: center;
 }
 
-.spectra {
-  color: var(--primary-color);
-  margin-left: 0.5rem;
-}
-
-.navbar-toggler {
-  border: 0;
-  padding: 0;
-}
-
-.offcanvas-body {
-  justify-content: end;
-}
-
-.navbar-toggler-icon {
-  background-image: url("../images/Hamburger.svg");
-}
-
 @media (max-width: 480px) {
+  .nav {
+    justify-content: start;
+  }
+
   .navbar {
     justify-content: flex-end;
-    padding: 0 1.5rem;
   }
 
   .navbar-brand {
     display: none;
   }
 
-  .header-logo {
+  .header-title {
+    color: var(--contrast-color);
+    width: auto;
+  }
+
+  .title-edit {
     justify-content: start;
-    margin-left: 1.5rem;
+    width: auto;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 720px) and (max-width: 1024px) {
 }
 
 @media (min-width: 1281px) {

@@ -1,0 +1,58 @@
+.offcanvas-body {
+  justify-content: end;
+}
+
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+  transform: none;
+  background-color: var(--primary-color);
+}
+
+.offcanvas-header .title-edit {
+  color: var(--contrast-color);
+}
+
+.offcanvas-header .btn-close {
+  background-image: url("../images/Close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 1.75em;
+  height: 1.75em;
+}
+
+header .contact-link-group {
+  display: none;
+}
+
+.offcanvas .header-title {
+  position: relative;
+}
+
+.offcanvas-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+}
+
+@media (max-width: 480px) {
+  .offcanvas-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+  }
+
+  .offcanvas .contact-link-group {
+    display: flex;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1281px) {
+}
