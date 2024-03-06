@@ -31,6 +31,7 @@ header {
 .navbar-brand {
   font-family: var(--heading-font-family);
   color: var(--contrast-color);
+  margin: 0;
 }
 
 .nav-link {

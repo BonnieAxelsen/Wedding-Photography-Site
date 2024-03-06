@@ -52,6 +52,11 @@ header .contact-link-group {
 }
 
 @media (min-width: 720px) and (max-width: 1024px) {
+  .offcanvas-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+  }
 }
 
 @media (min-width: 1281px) {

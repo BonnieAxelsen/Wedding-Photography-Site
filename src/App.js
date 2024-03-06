@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Packages from "./components/Packages";
 import PackagesInfo from "./components/PackagesInfo";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 import "./App.css";
@@ -16,7 +17,7 @@ export default function App() {
         <Intro />
         <Packages />
         <PackagesInfo />
-
+        <Portfolio />
         <Contact />
       </Container>
     </div>
