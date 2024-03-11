@@ -5,7 +5,7 @@ import "../styles/Contact.css";
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <section className="contact" id="contact">
       <div className="contact-content">
         <h1>ready to say 'i do?'</h1>
         <div className="contact-text">
@@ -18,6 +18,6 @@ export default function Contact() {
           </Button>
         </div>{" "}
       </div>
-    </div>
+    </section>
   );
 }

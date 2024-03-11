@@ -41,12 +41,14 @@ export default function OffcanvasExample() {
                 <Offcanvas.Body>
                   {" "}
                   <Nav className="nav-links">
-                    <Nav.Link href="#action1">packages</Nav.Link>
-                    <Nav.Link href="#action2">portfolio</Nav.Link>
-                    <Nav.Link href="#action3">contact</Nav.Link>
-                    <Button href="#" className="contact-btn">
-                      get in touch
-                    </Button>{" "}
+                    <Nav.Link href="#intro">who we are</Nav.Link>
+                    <Nav.Link href="#packages-info">packages</Nav.Link>
+                    <Nav.Link href="#portfolio">portfolio</Nav.Link>
+                    <div className="offcanvas-button-edit">
+                      <Button href="#contact" className="contact-btn">
+                        get in touch
+                      </Button>
+                    </div>
                   </Nav>
                 </Offcanvas.Body>{" "}
               </Navbar.Offcanvas>

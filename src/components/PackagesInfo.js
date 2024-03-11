@@ -11,7 +11,7 @@ import packageimage3 from "../images/package-3.png";
 
 export default function PackagesInfo() {
   return (
-    <div className="package-info">
+    <div className="package-info" id="packages-info">
       <Row className="package-info-row">
         <Col className="package-info-col" lg>
           <img src={packageimage1} alt="packageimage-1" />

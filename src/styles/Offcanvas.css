@@ -1,3 +1,4 @@
+/*  */
 .offcanvas-body {
   justify-content: end;
 }
@@ -39,11 +40,15 @@ header .contact-link-group {
   padding: 1.5rem 2rem;
 }
 
+.offcanvas-button-edit {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
 @media (max-width: 480px) {
   .offcanvas-body {
-    display: flex;
-    justify-content: center;
-    padding-top: 6rem;
+    padding-top: 5rem;
   }
 
   .offcanvas .contact-link-group {
@@ -51,11 +56,9 @@ header .contact-link-group {
   }
 }
 
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 480px) and (max-width: 1024px) {
   .offcanvas-body {
-    display: flex;
-    justify-content: center;
-    padding-top: 6rem;
+    padding-top: 7rem;
   }
 }
 

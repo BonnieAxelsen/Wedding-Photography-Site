@@ -12,17 +12,17 @@
   flex-shrink: 0;
 }
 
-@media (max-width: 480px) {
-  .packages {
-    height: 28vh;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (max-width: 540px) {
   .packages {
     height: 35vh;
   }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 541px) and (max-width: 1024px) {
+  .packages {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 1025px) {
 }

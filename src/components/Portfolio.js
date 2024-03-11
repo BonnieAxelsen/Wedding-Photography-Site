@@ -9,7 +9,7 @@ import portfolioImage5 from "../images/Portfolio-image-5.svg";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <section className="portfolio" id="portfolio">
       <div className="portfolio-image-group-1">
         <img src={portfolioImage1} alt="portfolio-1" />
         <img src={portfolioImage2} alt="portfolio-2" />
@@ -19,6 +19,6 @@ export default function Portfolio() {
         <img src={portfolioImage4} alt="portfolio-4" />
         <img src={portfolioImage5} alt="portfolio-5" />
       </div>
-    </div>
+    </section>
   );
 }

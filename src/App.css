@@ -89,7 +89,6 @@ header .contact-btn {
   font-weight: lighter;
   text-transform: uppercase;
   text-align: center;
-
   display: flex;
   align-content: center;
   flex-wrap: wrap;
@@ -102,13 +101,27 @@ header .contact-btn {
   color: var(--contrast-color);
 }
 
-@media (max-width: 480px) {
+.contact-btn:hover {
+  font-weight: normal;
+  color: var(--primary-color);
+  background-color: var(--contrast-color);
+  border: none;
+}
+
+.contact-btn:first-child:active {
+  font-weight: normal;
+  color: var(--primary-color);
+  background-color: var(--contrast-color);
+  border: none;
+}
+
+@media (max-width: 540px) {
   h1 {
-    font-size: 3.125rem;
+    font-size: 3.25rem;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 541px) and (max-width: 1024px) {
   h1 {
     font-size: 6rem;
   }

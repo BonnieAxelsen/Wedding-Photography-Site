@@ -4,7 +4,7 @@ import "../styles/Intro.css";
 
 export default function Intro() {
   return (
-    <div className="intro">
+    <section className="intro" id="intro">
       <div className="portfolioInfo">
         <div className="portfolioInfoContent">
           <div>
@@ -22,9 +22,9 @@ export default function Intro() {
               rekindling of your special day. Moody and profound undertones? Oh,
               they're our artistic heartbeat!
             </p>
-          </div>{" "}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -25,7 +25,7 @@
   align-self: stretch;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
   .intro {
     padding: 3.5rem;
   }
@@ -35,13 +35,11 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 541px) and (max-width: 1024px) {
   .intro {
-    padding: 10.5rem 8.5rem;
+    padding: 10.5rem 8rem;
   }
 }
 
 @media (min-width: 1281px) {
-  body {
-  }
 }
