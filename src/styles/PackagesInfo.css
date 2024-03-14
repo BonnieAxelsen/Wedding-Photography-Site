@@ -1,5 +1,5 @@
 .package-info {
-  padding: 4.5rem 0rem;
+  padding: 4.5rem 1rem;
 }
 
 .package-info img {
@@ -14,19 +14,19 @@
 
 .package-info-col {
   display: flex;
-  padding: 5rem 3.75rem;
+  padding: 4rem 3.75rem;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
   flex: 1 0 0;
 }
 
 .package-info-col-middle {
   display: flex;
-  padding: 5rem 3.75rem;
+  padding: 4rem 3.75rem;
   flex-direction: column;
   align-items: center;
-  gap: 5rem;
+  gap: 4rem;
   flex: 1 0 0;
   border-right: 2px solid rgba(89, 84, 84, 0.2);
   border-left: 2px solid rgba(89, 84, 84, 0.2);
@@ -47,6 +47,11 @@
   align-items: center;
   gap: 2.5rem;
   align-self: stretch;
+  text-align: left;
+}
+
+.package-info-text p {
+  margin: 0;
 }
 
 .accordion {
@@ -66,13 +71,32 @@
   color: var(--secondary-color);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 540px) {
+  .package-info {
+    padding-top: 3.5rem;
+  }
+
+  .package-info-col {
+    width: 100%;
+    max-width: none;
+    padding: 1.5rem 3rem;
+    gap: 2.5rem;
+  }
+
   .package-info-col-middle {
     border: none;
+    width: 100%;
+    max-width: none;
+    padding: 1.5rem 3rem;
+    gap: 2.5rem;
+  }
+
+  .package-info-text {
+    gap: 1rem;
   }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 541px) and (max-width: 1024px) {
   .package-info-col {
     padding: 5rem 2rem;
   }

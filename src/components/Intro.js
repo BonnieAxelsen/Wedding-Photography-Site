@@ -1,14 +1,13 @@
 import React from "react";
-
 import "../styles/Intro.css";
 
 export default function Intro() {
   return (
     <section className="intro" id="intro">
-      <div className="portfolioInfo">
-        <div className="portfolioInfoContent">
+      <div className="introLayout">
+        <div className="introContent">
           <div>
-            <h3> designed for nature lovers</h3>
+            <h3>Designed for nature lovers</h3>
           </div>
           <div>
             <p>

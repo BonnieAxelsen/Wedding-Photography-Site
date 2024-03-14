@@ -67,6 +67,13 @@ h3 {
   color: var(--primary-color);
   align-self: stretch;
   letter-spacing: 0.13125rem;
+  text-transform: lowercase;
+}
+
+h4 {
+  font-size: 1.25rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.075rem;
 }
 
 p {

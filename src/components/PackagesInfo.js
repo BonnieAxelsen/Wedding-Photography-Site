@@ -13,7 +13,7 @@ export default function PackagesInfo() {
   return (
     <div className="package-info" id="packages-info">
       <Row className="package-info-row">
-        <Col className="package-info-col" lg>
+        <Col className="package-info-col" md={4}>
           <img src={packageimage1} alt="packageimage-1" />
           <div className="package-info-headings">
             <h3>three hours</h3>
@@ -35,16 +35,16 @@ export default function PackagesInfo() {
             </Accordion>
           </div>
         </Col>
-        <Col className="package-info-col-middle" lg>
+        <Col className="package-info-col-middle" md={4}>
           <img src={packageimage2} alt="packageimage-2" />
           <div className="package-info-headings">
-            <h3>three hours</h3>
-            <h4>$750</h4>
+            <h3>six hours</h3>
+            <h4>$1450</h4>
           </div>
           <div className="package-info-text">
             <p>
-              Perfect for a first look, an elopement or a quick capture of a
-              ceremony. Short and sweet!
+              For weddings with few guests or a tight schedule, covering
+              everything up to the reception.
             </p>
             <Accordion>
               <Accordion.Item eventKey="0">
@@ -57,16 +57,16 @@ export default function PackagesInfo() {
             </Accordion>
           </div>
         </Col>{" "}
-        <Col className="package-info-col" lg>
+        <Col className="package-info-col" md={4}>
           <img src={packageimage3} alt="packageimage-3" />
           <div className="package-info-headings">
-            <h3>three hours</h3>
-            <h4>$750</h4>
+            <h3>twelve hours</h3>
+            <h4>$2800</h4>
           </div>
           <div className="package-info-text">
             <p>
-              Perfect for a first look, an elopement or a quick capture of a
-              ceremony. Short and sweet!
+              From the getting ready, all the way to the party, cake and
+              fireworks. Your full day captured!
             </p>
             <Accordion>
               <Accordion.Item eventKey="0">

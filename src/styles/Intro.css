@@ -5,7 +5,7 @@
   padding: 6.5rem 15rem;
 }
 
-.portfolioInfo {
+.introLayout {
   display: flex;
   width: 100%; /* Content takes up 70% of the width */
   padding: 3.75rem 0rem 3.75rem 5rem;
@@ -16,7 +16,7 @@
   border-left: 2px solid rgba(89, 84, 84, 0.2);
 }
 
-.portfolioInfoContent {
+.introContent {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,10 +28,6 @@
 @media (max-width: 540px) {
   .intro {
     padding: 3.5rem;
-  }
-
-  .portfolioInfo {
-    padding: 3.75rem 0rem 3.75rem 2.5rem;
   }
 }
 
