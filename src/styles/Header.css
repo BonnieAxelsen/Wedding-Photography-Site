@@ -118,9 +118,12 @@
 }
 
 .header-title {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   position: absolute;
   text-decoration: none;
-  overflow: visible;
 }
 
 .header-title a {

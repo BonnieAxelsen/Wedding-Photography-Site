@@ -38,10 +38,10 @@ export default function Header() {
       } ${isHeaderVisible ? "" : "hidden"}`}
     >
       <div className="nav">
-        <a href="/" className="header-title">
+        <div className="header-title">
           <h2>green</h2>
           <h2 className="title-edit">spectra</h2>
-        </a>
+        </div>
         <>
           {["lg"].map((expand) => (
             <Navbar
