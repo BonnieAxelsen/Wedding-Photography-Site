@@ -28,8 +28,10 @@ export default function PackagesInfo() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>inclusions</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor
+                  </p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -50,8 +52,10 @@ export default function PackagesInfo() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>inclusions</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor
+                  </p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -72,8 +76,10 @@ export default function PackagesInfo() {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>inclusions</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor
+                  </p>
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

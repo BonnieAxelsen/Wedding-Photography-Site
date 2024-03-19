@@ -117,30 +117,36 @@
   text-align: center;
 }
 
+.header-title-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .header-title {
-  overflow: visible;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: absolute;
   text-decoration: none;
+  overflow: visible;
+  padding: 0;
 }
 
 .header-title a {
   text-decoration: none;
-  z-index: 1000;
 }
 
 @media (max-width: 480px) {
   .nav {
     justify-content: start;
+    height: 6rem;
   }
 
   .navbar {
     justify-content: flex-end;
   }
 
-  .navbar-brand {
+  .logo {
     display: none;
   }
 
@@ -150,14 +156,14 @@
     padding: 1.5rem 0;
   }
 
-  .header-title {
-    color: var(--contrast-color);
-    width: auto;
+  .header-title-wrapper {
+    position: absolute;
+    left: 0%;
+    transform: translateX(-0%);
   }
 
-  .title-edit {
-    justify-content: start;
-    width: auto;
+  .header-title {
+    color: var(--contrast-color);
   }
 }
 

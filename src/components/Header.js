@@ -38,10 +38,6 @@ export default function Header() {
       } ${isHeaderVisible ? "" : "hidden"}`}
     >
       <div className="nav">
-        <div className="header-title">
-          <h2>green</h2>
-          <h2 className="title-edit">spectra</h2>
-        </div>
         <>
           {["lg"].map((expand) => (
             <Navbar
@@ -51,8 +47,14 @@ export default function Header() {
               sticky="top"
             >
               <Navbar.Brand href="/">
-                <div className="logo">gs</div>
+                <div className="logo"> gs</div>
               </Navbar.Brand>
+              <div className="header-title-wrapper">
+                <Navbar.Brand href="/" className="header-title">
+                  <h2>green</h2>
+                  <h2 className="title-edit">spectra</h2>
+                </Navbar.Brand>
+              </div>
               <Navbar.Toggle
                 aria-controls={`offcanvasNavbar-expand-${expand}`}
               />
@@ -64,10 +66,10 @@ export default function Header() {
               >
                 <Offcanvas.Header closeButton>
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                    <a href="/" className="header-title">
+                    <Navbar.Brand href="/" className="header-title">
                       <h2>green</h2>
                       <h2 className="title-edit">spectra</h2>
-                    </a>
+                    </Navbar.Brand>
                   </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
