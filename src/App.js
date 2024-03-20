@@ -4,6 +4,10 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Packages from "./components/Packages";
 import PackagesInfo from "./components/PackagesInfo";
+
+/* import Test from "./components/Test";
+ */
+
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
@@ -17,6 +21,7 @@ export default function App() {
         <Intro />
         <Packages />
         <PackagesInfo />
+        {/* <Test />*/}
         <Portfolio />
         <Contact />
       </Container>
