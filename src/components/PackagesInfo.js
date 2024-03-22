@@ -4,23 +4,24 @@ import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
 
 import "../styles/PackagesInfo.css";
+import "../styles/PackagesInfoAccordion.css";
 
-import packageimage1 from "../images/package-1.png";
-import packageimage2 from "../images/package-2.png";
-import packageimage3 from "../images/package-3.png";
+import packagesimage1 from "../images/packages-1.png";
+import packagesimage2 from "../images/packages-2.png";
+import packagesimage3 from "../images/packages-3.png";
 
 export default function PackagesInfo() {
   return (
-    <div className="package-info" id="packages-info">
-      <Row className="package-info-row">
-        <Col className="package-info-col" md={4}>
-          <img src={packageimage1} alt="packageimage-1" />
-          <div className="package-info-headings">
+    <section className="packages-info" id="packages-info">
+      <Row className="packages-info-row">
+        <Col className="packages-info-col" md={4}>
+          <img src={packagesimage1} alt="packagesimage-1" />
+          <div className="packages-info-headings">
             <h3>four hours</h3>
             <h4>$1500</h4>
           </div>
-          <div className="package-info-text-wrapper">
-            <p className="package-info-text">
+          <div className="packages-info-text-wrapper">
+            <p className="packages-info-text">
               Perfect for a first look, an elopement or a quick capture of a
               ceremony. Short and sweet!
             </p>
@@ -61,14 +62,14 @@ export default function PackagesInfo() {
             </Accordion>
           </div>
         </Col>
-        <Col className="package-info-col-middle" md={4}>
-          <img src={packageimage2} alt="packageimage-2" />
-          <div className="package-info-headings">
+        <Col className="packages-info-col-middle" md={4}>
+          <img src={packagesimage2} alt="packagesimage-2" />
+          <div className="packages-info-headings">
             <h3>eight hours</h3>
             <h4>$2500</h4>
           </div>
-          <div className="package-info-text-wrapper">
-            <p className="package-info-text">
+          <div className="packages-info-text-wrapper">
+            <p className="packages-info-text">
               For weddings with fewer guests or a tight schedule, covering main
               events and reception highlights.
             </p>
@@ -115,14 +116,14 @@ export default function PackagesInfo() {
             </Accordion>
           </div>
         </Col>
-        <Col className="package-info-col" md={4}>
-          <img src={packageimage3} alt="packageimage-3" />
-          <div className="package-info-headings">
+        <Col className="packages-info-col" md={4}>
+          <img src={packagesimage3} alt="packagesimage-3" />
+          <div className="packages-info-headings">
             <h3>twelve hours</h3>
             <h4>$4500</h4>
           </div>
-          <div className="package-info-text-wrapper">
-            <p className="package-info-text">
+          <div className="packages-info-text-wrapper">
+            <p className="packages-info-text">
               From the getting ready, all the way to the party, cake and
               fireworks. Your full day captured!
             </p>
@@ -186,6 +187,6 @@ export default function PackagesInfo() {
           </div>
         </Col>
       </Row>
-    </div>
+    </section>
   );
 }

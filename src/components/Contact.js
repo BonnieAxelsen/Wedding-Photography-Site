@@ -16,7 +16,7 @@ export default function Contact() {
           <Button href="#" className="contact-btn">
             get in touch
           </Button>
-        </div>{" "}
+        </div>
       </div>
     </section>
   );

@@ -1,7 +1,34 @@
-.portfolio-image-group-1 img {
-  width: 33.333%;
+.portfolio {
+  display: grid;
+  height: 100vh; /* Set parent container to 100vh */
+  grid-template-rows: 2fr 1fr; /* Divided into 2 parts: 2/3 and 1/3 */
 }
 
-.portfolio-image-group-2 img {
-  width: 50%;
+.portfolio-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for the first row */
+}
+
+.portfolio-row:nth-child(2) {
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for the second row */
+}
+
+.portfolio-row img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Scale the images while preserving aspect ratios */
+}
+
+@media (max-width: 540px) {
+  .portfolio {
+    height: 62vh;
+    grid-template-rows: 2fr 1fr;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+  .portfolio {
+    height: 75vh;
+    grid-template-rows: 1.75fr 1fr;
+  }
 }

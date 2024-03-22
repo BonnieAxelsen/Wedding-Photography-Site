@@ -4,8 +4,8 @@ import "../styles/Intro.css";
 export default function Intro() {
   return (
     <section className="intro" id="intro">
-      <div className="introLayout">
-        <div className="introContent">
+      <div className="intro-layout">
+        <div className="intro-content">
           <div>
             <h3>Designed for nature lovers</h3>
           </div>

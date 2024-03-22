@@ -1,0 +1,39 @@
+.portfolio-info {
+  padding: 7rem 8rem;
+}
+
+.portfolio-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-right: 2px solid rgba(89, 84, 84, 0.2);
+  border-left: 2px solid rgba(89, 84, 84, 0.2);
+  margin: 0rem 5rem 5rem;
+  padding: 3.75rem 5rem;
+}
+
+.portfolio-info-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-info h4,
+.portfolio-info p {
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 540px) {
+  .portfolio-info {
+    padding: 3rem 2rem;
+  }
+
+  .portfolio-info-text {
+    padding: 1.5rem;
+    margin: 2rem 0rem;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+}
