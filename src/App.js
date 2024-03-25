@@ -4,12 +4,13 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Packages from "./components/Packages";
 import PackagesInfo from "./components/PackagesInfo";
-import Portfolio from "./components/Portfolio";
 import PortfolioInfo from "./components/PortfolioInfo";
 
 import Contact from "./components/Contact";
 
 /*;
+import Portfolio from "./components/Portfolio";
+
 import Test from "./components/Test";
 */
 
@@ -22,12 +23,9 @@ export default function App() {
         <Hero />
         <Intro />
         <Packages />
-        <PackagesInfo />
-        <Portfolio />
+        <PackagesInfo /> {/*  <Test />   <Portfolio />  */}
         <PortfolioInfo />
-
         <Contact />
-        {/*  <Test />  */}
       </Container>
     </div>
   );

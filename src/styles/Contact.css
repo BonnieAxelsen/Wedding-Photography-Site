@@ -12,12 +12,24 @@
 }
 
 .contact-content {
-  gap: 2rem;
+  padding: 3rem 6rem;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 12rem 0rem;
   text-align: center;
 }
 
 .contact-text p {
   color: var(--contrast-color);
+}
+
+.contact-text .contact-btn {
+  border: none;
 }
 
 @media (max-width: 480px) {

@@ -26,18 +26,24 @@ export default function PortfolioInfo() {
         <Row className="portfolio-info-row">
           <Col className="portfolio-info-col" md={4}>
             <img src={portfolioinfoimage1} alt="portfolioinfoimage-1" />
-            <h4>nadya & harry</h4>
-            <p>21.09.2020</p>
+            <div className="portfolio-info-image-text">
+              <h4>nadya & harry</h4>
+              <p>21.09.2020</p>
+            </div>
           </Col>
           <Col className="portfolio-info-col" md={4}>
             <img src={portfolioinfoimage2} alt="portfolioinfoimage-2" />
-            <h4>alex & christopher</h4>
-            <p>17.06.2021</p>
+            <div className="portfolio-info-image-text">
+              <h4>alex & christopher</h4>
+              <p>17.06.2021</p>
+            </div>
           </Col>
           <Col className="portfolio-info-col" md={4}>
             <img src={portfolioinfoimage3} alt="portfolioinfoimage-3" />
-            <h4>henrik & margit</h4>
-            <p>13.10.2022</p>
+            <div className="portfolio-info-image-text">
+              <h4>henrik & margit</h4>
+              <p>13.10.2022</p>
+            </div>
           </Col>
         </Row>
       </div>
