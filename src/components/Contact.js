@@ -13,7 +13,11 @@ export default function Contact() {
             Reach out, and let's embark on a journey, where every moment is
             encapsulated with the beauty and emotion it deserves
           </p>
-          <Button href="#" className="contact-btn">
+          <Button
+            href="mailto:bonniekhill94@gmail.com"
+            className="contact-btn"
+            target="_blank"
+          >
             get in touch
           </Button>
         </div>

@@ -75,7 +75,7 @@ export default function Header() {
                 <Offcanvas.Body>
                   <Nav className="nav-links">
                     <Nav.Link href="#intro">who we are</Nav.Link>
-                    <Nav.Link href="#packages-info">packages</Nav.Link>
+                    <Nav.Link href="#packages">packages</Nav.Link>
                     <Nav.Link href="#portfolio">portfolio</Nav.Link>
                     <div className="offcanvas-button-edit">
                       <Button href="#contact" className="contact-btn">

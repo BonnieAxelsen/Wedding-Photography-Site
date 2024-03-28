@@ -51,7 +51,7 @@ a {
 h1 {
   color: var(--contrast-color);
   text-align: center;
-  font-size: 7.5rem;
+  font-size: 6.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: 0.85em;
@@ -123,6 +123,16 @@ header .contact-btn {
   border: none;
 }
 
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: var(--contrast-color);
+  background-color: var(--primary-color);
+  border-color: none;
+}
+
 @media (max-width: 540px) {
   h1 {
     font-size: 3.25rem;
@@ -134,9 +144,6 @@ header .contact-btn {
 }
 
 @media (min-width: 541px) and (max-width: 1024px) {
-  h1 {
-    font-size: 7rem;
-  }
 }
 
 @media (min-width: 1281px) {

@@ -33,14 +33,26 @@
 }
 
 @media (max-width: 480px) {
-  .contact {
-    height: 50vh;
+  .contact-content {
+    padding: 3rem;
+  }
+
+  .contact-text {
+    padding: 2rem 0rem;
   }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .contact {
     height: 50vh;
+  }
+
+  .contact-content {
+    padding: 3rem 10rem;
+  }
+
+  .contact-text {
+    padding: 2rem 2rem 0rem;
   }
 }
 

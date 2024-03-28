@@ -9,10 +9,9 @@ import PortfolioInfo from "./components/PortfolioInfo";
 import Contact from "./components/Contact";
 
 /*;
-import Portfolio from "./components/Portfolio";
+ */
 
-import Test from "./components/Test";
-*/
+import Portfolio from "./components/Portfolio";
 
 import "./App.css";
 
@@ -23,7 +22,8 @@ export default function App() {
         <Hero />
         <Intro />
         <Packages />
-        <PackagesInfo /> {/*  <Test />   <Portfolio />  */}
+        <PackagesInfo /> {/*   */}
+        <Portfolio />
         <PortfolioInfo />
         <Contact />
       </Container>
