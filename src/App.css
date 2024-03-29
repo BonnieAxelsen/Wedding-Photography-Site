@@ -14,10 +14,44 @@
   --heading-font-family: "NewYork";
   --subheading-font-family: "Alegreya Sans SC", sans-serif;
   --content-font-family: "Montserrat", sans-serif;
+  --light-font-weight: 100;
+  --medium-font-weight: 300;
+
+  --scroll-behavior: smooth;
+
+  --nav-padding: 1.5rem 2rem;
+
+  --line-text-lg-width: 75%;
+  --line-text-md-width: 85%;
+  --line-text-lg-width: 100%;
+
+  --line-text-lg-padding-top: 3.75rem;
+  --line-text-lg-padding-bottom: 3.75rem;
+  --line-text-lg-padding-right: 0rem;
+  --line-text-lg-padding-left: 4.25rem;
+  --line-text-sm-padding-top: 2rem;
+  --line-text-sm-padding-bottom: 2rem;
+  --line-text-sm-padding-right: 0rem;
+  --line-text-sm-padding-left: 2rem;
+  --line-text-border-left: 2px solid var(--tertiary-color);
+  --line-text-border-right: 2px solid var(--tertiary-color);
+  --line-text-lg-grid-gap: 5rem;
+  --line-text-md-grid-gap: 3rem;
+  --line-text-sm-grid-gap: 1.5rem;
 }
 
-html {
-  scroll-behavior: smooth;
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 7rem;
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-fluid {
@@ -53,7 +87,7 @@ h1 {
   text-align: center;
   font-size: 6.5rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: var(--medium-font-weight);
   line-height: 0.85em;
 }
 
@@ -65,21 +99,20 @@ h2 {
 h3 {
   font-size: 1.7rem;
   color: var(--primary-color);
-  align-self: stretch;
   letter-spacing: 0.13125rem;
   text-transform: lowercase;
 }
 
 h4 {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: var(--medium-font-weight);
   color: var(--secondary-color);
   letter-spacing: 0.075rem;
 }
 
 p {
   font-size: 0.85rem;
-  font-weight: 300;
+  font-weight: var(--medium-font-weight);
   color: var(--secondary-color);
 
   align-self: stretch;
@@ -94,7 +127,7 @@ header .contact-btn {
 .contact-btn {
   font-family: var(--content-font-family);
   font-size: 0.75rem;
-  font-weight: lighter;
+  font-weight: var(--light-font-weight);
   text-transform: uppercase;
   text-align: center;
   display: flex;
@@ -110,14 +143,14 @@ header .contact-btn {
 }
 
 .contact-btn:hover {
-  font-weight: normal;
+  font-weight: var(--medium-font-weight);
   color: var(--primary-color);
   background-color: var(--contrast-color);
   border: none;
 }
 
 .contact-btn:first-child:active {
-  font-weight: normal;
+  font-weight: var(--medium-font-weight);
   color: var(--primary-color);
   background-color: var(--contrast-color);
   border: none;
@@ -134,6 +167,10 @@ header .contact-btn {
 }
 
 @media (max-width: 540px) {
+  section {
+    padding: 3rem 4rem;
+  }
+
   h1 {
     font-size: 3.25rem;
   }
@@ -144,6 +181,9 @@ header .contact-btn {
 }
 
 @media (min-width: 541px) and (max-width: 1024px) {
+  section {
+    padding: 5rem;
+  }
 }
 
 @media (min-width: 1281px) {

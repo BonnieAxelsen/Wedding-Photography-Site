@@ -1,38 +1,30 @@
-.intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 6.5rem 15rem;
-}
-
 .intro-layout {
-  display: flex;
-  width: 100%; /* Content takes up 70% of the width */
-  padding: 3.75rem 0rem 3.75rem 5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-left: 2px solid rgba(89, 84, 84, 0.2);
+  width: var(--line-text-lg-width); /*  */
+  padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-right)
+    var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
+  border-left: var(--line-text-border-left);
 }
 
 .intro-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
-  align-self: stretch;
+  gap: var(--line-text-sm-grid-gap);
+}
+
+.intro-last-paragraph {
+  margin: 0;
 }
 
 @media (max-width: 540px) {
-  .intro {
-    padding: 3.5rem;
+  .intro-layout {
+    width: var(--line-text-sm-width); /*  */
+    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-right)
+      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
   }
 }
 
 @media (min-width: 541px) and (max-width: 1024px) {
-  .intro {
-    padding: 10.5rem 8rem;
+  .intro-layout {
+    width: var(--line-text-md-width); /*  */
   }
 }

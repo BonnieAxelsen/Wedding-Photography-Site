@@ -18,7 +18,7 @@
 
 .accordion-button {
   font-family: var(--content-font-family);
-  font-weight: 300;
+  font-weight: var(--medium-font-weight);
   text-transform: uppercase;
   color: var(--secondary-color);
   background-color: transparent;

@@ -12,11 +12,11 @@ import packagesimage3 from "../images/packages-3.png";
 
 export default function PackagesInfo() {
   return (
-    <section className="packages-info" id="packages">
-      <Row className="packages-info-row">
+    <section className="packages-info">
+      <Row className="packages-info-row" id="packages">
         <Col className="packages-info-col" md={4}>
           <img src={packagesimage1} alt="packagesimage-1" />
-          <div className="packages-info-headings">
+          <div>
             <h3>four hours</h3>
             <h4>$1500</h4>
           </div>
@@ -64,7 +64,7 @@ export default function PackagesInfo() {
         </Col>
         <Col className="packages-info-col-middle" md={4}>
           <img src={packagesimage2} alt="packagesimage-2" />
-          <div className="packages-info-headings">
+          <div>
             <h3>eight hours</h3>
             <h4>$2500</h4>
           </div>
@@ -118,7 +118,7 @@ export default function PackagesInfo() {
         </Col>
         <Col className="packages-info-col" md={4}>
           <img src={packagesimage3} alt="packagesimage-3" />
-          <div className="packages-info-headings">
+          <div>
             <h3>twelve hours</h3>
             <h4>$4500</h4>
           </div>

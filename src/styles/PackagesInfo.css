@@ -1,5 +1,6 @@
 .packages-info {
-  padding: 4.5rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .packages-info img {
@@ -8,43 +9,25 @@
 
 .packages-info-row {
   margin: 0;
-  padding: 0;
   text-align: center;
 }
 
-.packages-info-col {
-  display: flex;
-  padding: 4rem 3.75rem;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
+.packages-info-col,
+.packages-info-col-middle {
+  padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-left)
+    var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
+  gap: var(--line-text-md-grid-gap);
 }
 
 .packages-info-col-middle {
-  display: flex;
-  padding: 4rem 3.75rem;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  border-right: 2px solid rgba(89, 84, 84, 0.2);
-  border-left: 2px solid rgba(89, 84, 84, 0.2);
-}
-
-.packages-info-headings {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  align-self: stretch;
+  border-left: var(--line-text-border-left);
+  border-right: var(--line-text-border-right);
 }
 
 .packages-info-text-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2.5rem;
-  align-self: stretch;
+  gap: var(--line-text-sm-grid-gap);
   text-align: left;
 }
 
@@ -53,37 +36,20 @@
 }
 
 @media (max-width: 540px) {
-  .packages-info {
-    padding: 1.75rem;
-  }
-
   .packages-info-col,
   .packages-info-col-middle {
+    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-left)
+      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
     border: none;
-    width: 100%;
-    max-width: none;
-    padding: 1.5rem;
-    gap: 1.5rem;
-  }
-
-  .packages-info-headings {
-    gap: 0.5rem;
-  }
-
-  .packages-info-text-wrapper {
-    gap: 1.5rem;
+    gap: var(--line-text-sm-grid-gap);
   }
 }
 
 @media (min-width: 541px) and (max-width: 1024px) {
-  .packages-info-col {
-    padding: 5rem 2rem;
-    gap: 2rem;
-  }
-
+  .packages-info-col,
   .packages-info-col-middle {
-    padding: 5rem 2rem;
-    gap: 2rem;
+    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-left)
+      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
   }
 }
 

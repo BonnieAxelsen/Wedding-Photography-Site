@@ -16,7 +16,7 @@ export default function Intro() {
               the Yarra Valley and the captivating Dandenong region of Victoria,
               our mission is to choreograph a dance between you and nature.
             </p>
-            <p>
+            <p className="intro-last-paragraph">
               We craft images that become timeless love affairs, each glance a
               rekindling of your special day. Moody and profound undertones? Oh,
               they're our artistic heartbeat!

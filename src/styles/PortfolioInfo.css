@@ -1,5 +1,5 @@
 .portfolio-info {
-  padding: 7rem 8rem;
+  gap: var(--line-text-lg-grid-gap);
 }
 
 .portfolio-info-text {
@@ -7,10 +7,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: var(--line-text-lg-width);
+  padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-left)
+    var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
   border-right: 2px solid rgba(89, 84, 84, 0.2);
   border-left: 2px solid rgba(89, 84, 84, 0.2);
-  padding: 3rem;
-  margin: 0rem 6.5rem 4rem;
 }
 
 .portfolio-info-row {
@@ -29,7 +30,6 @@
 
 .portfolio-info img {
   width: 100%;
-  height: 75%;
   object-fit: cover;
 }
 
@@ -38,23 +38,19 @@
 }
 
 @media (max-width: 540px) {
-  .portfolio-info {
-    padding: 3rem 2rem;
+  .portfolio-info-row {
+    margin: 0;
   }
 
   .portfolio-info-text {
-    padding: 1.5rem;
-    margin: 2rem 0rem;
+    width: var(--line-text-sm-width);
+    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-left)
+      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
   }
 }
 
 @media (min-width: 541px) and (max-width: 1024px) {
-  .portfolio-info {
-    padding: 3rem 5rem;
-  }
-
   .portfolio-info-text {
-    padding: 3rem;
-    margin: 0rem 2rem 4rem;
+    width: var(--line-text-md-width);
   }
 }

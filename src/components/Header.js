@@ -78,7 +78,11 @@ export default function Header() {
                     <Nav.Link href="#packages">packages</Nav.Link>
                     <Nav.Link href="#portfolio">portfolio</Nav.Link>
                     <div className="offcanvas-button-edit">
-                      <Button href="#contact" className="contact-btn">
+                      <Button
+                        href="mailto:bonniekhill94@gmail.com"
+                        className="contact-btn"
+                        target="_blank"
+                      >
                         get in touch
                       </Button>
                     </div>
