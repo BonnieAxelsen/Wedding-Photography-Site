@@ -4,8 +4,8 @@ import "../styles/Packages.css";
 
 export default function Packages() {
   return (
-    <div className="packages">
+    <section className="packages" id="packages">
       <h1>packages</h1>
-    </div>
+    </section>
   );
 }

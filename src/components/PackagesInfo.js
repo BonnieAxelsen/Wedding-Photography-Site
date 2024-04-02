@@ -13,7 +13,7 @@ import packagesimage3 from "../images/packages-3.png";
 export default function PackagesInfo() {
   return (
     <section className="packages-info">
-      <Row className="packages-info-row" id="packages">
+      <Row className="packages-info-row">
         <Col className="packages-info-col" md={4}>
           <img src={packagesimage1} alt="packagesimage-1" />
           <div>

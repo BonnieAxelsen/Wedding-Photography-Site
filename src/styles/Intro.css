@@ -1,5 +1,5 @@
 .intro-layout {
-  width: var(--line-text-lg-width); /*  */
+  width: var(--border-text-width-lg); /*  */
   padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-right)
     var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
   border-left: var(--line-text-border-left);
@@ -8,7 +8,7 @@
 .intro-content {
   display: flex;
   flex-direction: column;
-  gap: var(--line-text-sm-grid-gap);
+  gap: var(--grid-gap-sm);
 }
 
 .intro-last-paragraph {
@@ -17,7 +17,7 @@
 
 @media (max-width: 540px) {
   .intro-layout {
-    width: var(--line-text-sm-width); /*  */
+    width: var(--border-text-width-sm);
     padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-right)
       var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
   }
@@ -25,6 +25,6 @@
 
 @media (min-width: 541px) and (max-width: 1024px) {
   .intro-layout {
-    width: var(--line-text-md-width); /*  */
+    width: var(--border-text-width-md); /*  */
   }
 }

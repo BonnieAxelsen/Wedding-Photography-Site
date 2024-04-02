@@ -25,6 +25,7 @@
 .portfolio-gallery-1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 100%;
 }
 
 .portfolio-gallery-1 img {
@@ -36,6 +37,7 @@
 .portfolio-gallery-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 100%;
 }
 
 .portfolio-gallery-2 img {
@@ -51,6 +53,11 @@
 
   .portfolio-gallery-2 img {
     height: 35vh;
+  }
+
+  .portfolio-heading {
+    width: 12rem;
+    height: 12rem;
   }
 }
 

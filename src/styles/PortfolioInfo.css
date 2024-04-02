@@ -1,5 +1,5 @@
 .portfolio-info {
-  gap: var(--line-text-lg-grid-gap);
+  gap: var(--grid-gap-lg);
 }
 
 .portfolio-info-text {
@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: var(--line-text-lg-width);
+  width: var(--border-text-width-lg);
   padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-left)
     var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
   border-right: 2px solid rgba(89, 84, 84, 0.2);
@@ -24,8 +24,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
-  padding: 0 2rem; /* Padding to be applied inside each column */
+  gap: var(--grid-gap-sm);
+  padding: var(--line-text-sm-padding-right) var(--line-text-sm-padding-left)
+    var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
 }
 
 .portfolio-info img {
@@ -38,12 +39,21 @@
 }
 
 @media (max-width: 540px) {
+  .portfolio-info {
+    gap: 0;
+  }
+
   .portfolio-info-row {
     margin: 0;
   }
 
+  .portfolio-info-col,
+  .portfolio-info-col-middle {
+    padding: 3rem 0 0;
+  }
+
   .portfolio-info-text {
-    width: var(--line-text-sm-width);
+    width: var(--border-text-width-sm);
     padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-left)
       var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
   }
@@ -51,6 +61,6 @@
 
 @media (min-width: 541px) and (max-width: 1024px) {
   .portfolio-info-text {
-    width: var(--line-text-md-width);
+    width: var(--border-text-width-md);
   }
 }

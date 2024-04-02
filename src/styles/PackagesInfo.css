@@ -16,7 +16,7 @@
 .packages-info-col-middle {
   padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-left)
     var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
-  gap: var(--line-text-md-grid-gap);
+  gap: var(--grid-gap-md);
 }
 
 .packages-info-col-middle {
@@ -27,7 +27,7 @@
 .packages-info-text-wrapper {
   display: flex;
   flex-direction: column;
-  gap: var(--line-text-sm-grid-gap);
+  gap: var(--grid-gap-sm);
   text-align: left;
 }
 
@@ -36,12 +36,15 @@
 }
 
 @media (max-width: 540px) {
+  .packages-info {
+    padding: var(--section-padding-sm); /* to match section padding */
+  }
+
   .packages-info-col,
   .packages-info-col-middle {
-    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-left)
-      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
+    padding: 2rem 0;
     border: none;
-    gap: var(--line-text-sm-grid-gap);
+    gap: var(--grid-gap-sm);
   }
 }
 
