@@ -1,8 +1,8 @@
 .intro-layout {
   width: var(--border-text-width-lg); /*  */
-  padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-right)
-    var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
-  border-left: var(--line-text-border-left);
+  padding: var(--border-text-lg-padding-top) var(--border-text-lg-padding-right)
+    var(--border-text-lg-padding-bottom) var(--border-text-lg-padding-left);
+  border-left: var(--border-text-border-left);
 }
 
 .intro-content {
@@ -18,8 +18,9 @@
 @media (max-width: 540px) {
   .intro-layout {
     width: var(--border-text-width-sm);
-    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-right)
-      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
+    padding: var(--border-text-sm-padding-top)
+      var(--border-text-sm-padding-right) var(--border-text-sm-padding-bottom)
+      var(--border-text-sm-padding-left);
   }
 }
 

@@ -14,14 +14,14 @@
 
 .packages-info-col,
 .packages-info-col-middle {
-  padding: var(--line-text-lg-padding-top) var(--line-text-lg-padding-left)
-    var(--line-text-lg-padding-bottom) var(--line-text-lg-padding-left);
+  padding: var(--border-text-lg-padding-top) var(--border-text-lg-padding-left)
+    var(--border-text-lg-padding-bottom) var(--border-text-lg-padding-left);
   gap: var(--grid-gap-md);
 }
 
 .packages-info-col-middle {
-  border-left: var(--line-text-border-left);
-  border-right: var(--line-text-border-right);
+  border-left: var(--border-text-border-left);
+  border-right: var(--border-text-border-right);
 }
 
 .packages-info-text-wrapper {
@@ -51,8 +51,9 @@
 @media (min-width: 541px) and (max-width: 1024px) {
   .packages-info-col,
   .packages-info-col-middle {
-    padding: var(--line-text-sm-padding-top) var(--line-text-sm-padding-left)
-      var(--line-text-sm-padding-bottom) var(--line-text-sm-padding-left);
+    padding: var(--border-text-sm-padding-top)
+      var(--border-text-sm-padding-left) var(--border-text-sm-padding-bottom)
+      var(--border-text-sm-padding-left);
   }
 }
 

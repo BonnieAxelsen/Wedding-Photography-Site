@@ -1,12 +1,10 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 import "../styles/PortfolioInfo.css";
 
-import portfolioinfoimage1 from "../images/portfolio-info-image-1.svg";
-import portfolioinfoimage2 from "../images/portfolio-info-image-2.svg";
-import portfolioinfoimage3 from "../images/portfolio-info-image-3.svg";
+import portfolioInfoImage1 from "../images/Portfolio-info-image-1.svg";
+
+import portfolioInfoImage2 from "../images/Portfolio-info-image-2.svg";
+import portfolioInfoImage3 from "../images/Portfolio-info-image-3.svg";
 
 export default function PortfolioInfo() {
   return (
@@ -23,29 +21,27 @@ export default function PortfolioInfo() {
         </p>
       </div>
       <div className="portfolio-info-layout">
-        <Row className="portfolio-info-row">
-          <Col className="portfolio-info-col" md={4}>
-            <img src={portfolioinfoimage1} alt="portfolioinfoimage-1" />
-            <div className="portfolio-info-image-text">
-              <h4>nadya & harry</h4>
-              <p>21.09.2020</p>
-            </div>
-          </Col>
-          <Col className="portfolio-info-col" md={4}>
-            <img src={portfolioinfoimage2} alt="portfolioinfoimage-2" />
-            <div className="portfolio-info-image-text">
-              <h4>alex & christopher</h4>
-              <p>17.06.2021</p>
-            </div>
-          </Col>
-          <Col className="portfolio-info-col" md={4}>
-            <img src={portfolioinfoimage3} alt="portfolioinfoimage-3" />
-            <div className="portfolio-info-image-text">
-              <h4>henrik & margit</h4>
-              <p>13.10.2022</p>
-            </div>
-          </Col>
-        </Row>
+        <div className="portfolio-info-layout-group">
+          <img src={portfolioInfoImage1} alt="portfolio-info-1" />
+          <div className="portfolio-info-layout-text">
+            <h4>nadya & harry</h4>
+            <p>21.09.2020</p>
+          </div>
+        </div>
+        <div className="portfolio-info-layout-group">
+          <img src={portfolioInfoImage2} alt="portfolio-info-2" />
+          <div className="portfolio-info-layout-text">
+            <h4>alex & christopher</h4>
+            <p>17.06.2021</p>
+          </div>
+        </div>
+        <div className="portfolio-info-layout-group">
+          <img src={portfolioInfoImage3} alt="portfolio-info-3" />
+          <div className="portfolio-info-layout-text">
+            <h4>henrik & margit</h4>
+            <p>13.10.2022</p>
+          </div>
+        </div>
       </div>
     </section>
   );

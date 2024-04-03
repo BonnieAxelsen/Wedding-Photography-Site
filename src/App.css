@@ -16,31 +16,28 @@
   --content-font-family: "Montserrat", sans-serif;
   --light-font-weight: 100;
   --medium-font-weight: 300;
-
   --scroll-behavior: smooth;
+
   --section-padding-lg: 5rem 7rem;
   --section-padding-md: 5rem 4rem;
   --section-padding-sm: 3rem 3.5rem;
+  --nav-padding: 1.5rem 2rem;
   --grid-gap-lg: 5rem;
   --grid-gap-md: 3rem;
   --grid-gap-sm: 1.5rem;
-
-  --nav-padding: 1.5rem 2rem;
-
   --border-text-width-lg: 75%;
   --border-text-width-md: 85%;
   --border-text-width-sm: 100%;
-
-  --line-text-lg-padding-top: 3.75rem;
-  --line-text-lg-padding-bottom: 3.75rem;
-  --line-text-lg-padding-right: 0rem;
-  --line-text-lg-padding-left: 4.25rem;
-  --line-text-sm-padding-top: 2rem;
-  --line-text-sm-padding-bottom: 2rem;
-  --line-text-sm-padding-right: 0rem;
-  --line-text-sm-padding-left: 2rem;
-  --line-text-border-left: 2px solid var(--tertiary-color);
-  --line-text-border-right: 2px solid var(--tertiary-color);
+  --border-text-lg-padding-top: 3.75rem;
+  --border-text-lg-padding-bottom: 3.75rem;
+  --border-text-lg-padding-right: 0rem;
+  --border-text-lg-padding-left: 4.25rem;
+  --border-text-sm-padding-top: 2rem;
+  --border-text-sm-padding-bottom: 2rem;
+  --border-text-sm-padding-right: 0rem;
+  --border-text-sm-padding-left: 2rem;
+  --border-text-border-left: 2px solid var(--tertiary-color);
+  --border-text-border-right: 2px solid var(--tertiary-color);
 }
 
 section {

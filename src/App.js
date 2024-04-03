@@ -7,8 +7,9 @@ import PackagesInfo from "./components/PackagesInfo";
 import PortfolioInfo from "./components/PortfolioInfo";
 
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
-/*;
+/* import Test from "./components/Test";
  */
 
 import Portfolio from "./components/Portfolio";
@@ -22,10 +23,12 @@ export default function App() {
         <Hero />
         <Intro />
         <Packages />
-        <PackagesInfo /> {/*   */}
+        <PackagesInfo />
         <Portfolio />
         <PortfolioInfo />
+        {/*  <Test />  */}
         <Contact />
+        <Footer />
       </Container>
     </div>
   );

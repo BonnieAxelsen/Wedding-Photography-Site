@@ -59,6 +59,10 @@
     width: 12rem;
     height: 12rem;
   }
+
+  .portfolio-heading-edit {
+    margin-left: 1.25rem;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
