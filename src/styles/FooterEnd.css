@@ -1,0 +1,20 @@
+.footer-end {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--primary-color);
+}
+
+.footer-end p {
+  color: var(--contrast-color);
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.075rem;
+  margin: 0;
+  padding: var(--border-text-sm-padding-top);
+}
+
+.footer-end a {
+  text-decoration: none;
+}

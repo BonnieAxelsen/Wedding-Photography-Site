@@ -8,6 +8,7 @@ import PortfolioInfo from "./components/PortfolioInfo";
 
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import FooterEnd from "./components/FooterEnd";
 
 /* import Test from "./components/Test";
  */
@@ -29,6 +30,7 @@ export default function App() {
         {/*  <Test />  */}
         <Contact />
         <Footer />
+        <FooterEnd />
       </Container>
     </div>
   );

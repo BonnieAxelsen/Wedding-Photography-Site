@@ -1,7 +1,7 @@
+/*    */
+
 .contact {
-  /*    */
   background-image: url(../images/Contact.png);
-  height: 75vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,17 +11,25 @@
   flex-shrink: 0;
 }
 
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-gap-sm);
+}
+
 .contact-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 12rem 0rem;
+  gap: var(--grid-gap-sm);
+  padding: 0rem 10rem;
   text-align: center;
 }
 
 .contact-text p {
   color: var(--contrast-color);
+  margin: 0;
 }
 
 .contact-text .contact-btn {
@@ -30,17 +38,13 @@
 
 @media (max-width: 480px) {
   .contact-text {
-    padding: 2rem 0rem;
+    padding: 0rem 2.5rem;
   }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
-  .contact {
-    height: 50vh;
-  }
-
   .contact-text {
-    padding: 2rem 2rem 0rem;
+    padding: 0rem 7rem;
   }
 }
 

@@ -20,7 +20,7 @@
 
   --section-padding-lg: 5rem 7rem;
   --section-padding-md: 5rem 4rem;
-  --section-padding-sm: 3rem 3.5rem;
+  --section-padding-sm: 3rem;
   --nav-padding: 1.5rem 2rem;
   --grid-gap-lg: 5rem;
   --grid-gap-md: 3rem;
@@ -92,12 +92,13 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
   color: var(--contrast-color);
   line-height: 0.75em;
 }
 
 h3 {
-  font-size: 1.7rem;
+  font-size: 1.65rem;
   color: var(--primary-color);
   letter-spacing: 0.13125rem;
   text-transform: lowercase;
@@ -135,8 +136,8 @@ header .contact-btn {
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 50%;
-  width: 5rem;
-  height: 5rem;
+  width: 6rem;
+  height: 6rem;
   border: 1.5px solid #fff;
   background-color: var(--primary-color);
   color: var(--contrast-color);
