@@ -12,10 +12,12 @@ export default function FooterEnd() {
 
   return (
     <div className="footer-end" id="footer">
-      <p>Copyright Bonnie Axelsen 2024s</p>
-      <p onClick={scrollToTop} style={{ cursor: "pointer" }}>
-        back to top ↑
-      </p>
+      <div className="footer-end-content">
+        <p>copyright bonnie axelsen 2024</p>
+        <p onClick={scrollToTop} style={{ cursor: "pointer" }}>
+          back to top ↑
+        </p>
+      </div>
     </div>
   );
 }

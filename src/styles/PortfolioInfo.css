@@ -10,8 +10,8 @@
   width: var(--border-text-width-lg);
   padding: var(--border-text-lg-padding-top) var(--border-text-lg-padding-left)
     var(--border-text-lg-padding-bottom) var(--border-text-lg-padding-left);
-  border-right: 2px solid rgba(89, 84, 84, 0.2);
-  border-left: 2px solid rgba(89, 84, 84, 0.2);
+  border-right: var(--border-text-border-right);
+  border-left: var(--border-text-border-left);
 }
 
 .portfolio-info-layout {
@@ -61,8 +61,8 @@
   }
 
   .portfolio-info-layout-group img {
-    width: 15rem;
-    height: 18rem;
+    width: 14rem;
+    height: 17rem;
   }
 }
 

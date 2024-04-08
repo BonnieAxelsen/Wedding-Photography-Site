@@ -36,8 +36,8 @@
   --border-text-sm-padding-bottom: 2rem;
   --border-text-sm-padding-right: 0rem;
   --border-text-sm-padding-left: 2rem;
-  --border-text-border-left: 2px solid var(--tertiary-color);
-  --border-text-border-right: 2px solid var(--tertiary-color);
+  --border-text-border-left: 1.5px solid var(--tertiary-color);
+  --border-text-border-right: 1.5px solid var(--tertiary-color);
 }
 
 section {

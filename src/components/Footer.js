@@ -1,10 +1,12 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import { Button } from "react-bootstrap";
 
 import "../styles/Footer.css"; // Import your CSS file for styling
-/*     */
+/*   import { Button } from "react-bootstrap";
+import Navbar from "react-bootstrap/Navbar";
+
+ */
 
 import soMeImage1 from "../images/SoMe-image-1.svg";
 import soMeImage2 from "../images/SoMe-image-2.svg";
@@ -25,28 +27,38 @@ export default function Footer() {
             <img src={soMeImage5} alt="so-me-5" className="so-me-last-image" />
           </div>
         </div>
+
+        <hr />
+
         <div className="footer-nav">
-          <div className="footer-logo">
-            <Navbar.Brand href="/" className="header-title">
-              <h2>green</h2>
-              <h2 className="title-edit">spectra</h2>
-            </Navbar.Brand>
-          </div>
+          {/* */}
           <div className="footer-links">
             <Nav className="nav-links">
-              <Nav.Link href="#intro">who we are</Nav.Link>
-              <Nav.Link href="#packages">packages</Nav.Link>
-              <Nav.Link href="#portfolio">portfolio</Nav.Link>
-            </Nav>
-            <Nav className="nav-links">
-              <Nav.Link href="mailto:bonniekhill94@gmail.com" target="_blank">
+              <Nav.Link href="/" className="left-nav-text-mobile">
+                home
+              </Nav.Link>
+              <Nav.Link href="#intro" className="right-nav-text-mobile">
+                who we are
+              </Nav.Link>
+              <Nav.Link href="#packages" className="left-nav-text-mobile">
+                packages
+              </Nav.Link>
+              <Nav.Link href="#portfolio" className="right-nav-text-mobile">
+                portfolio
+              </Nav.Link>
+              <Nav.Link
+                href="mailto:bonniekhill94@gmail.com"
+                className="left-nav-text-mobile"
+                target="_blank"
+              >
                 contact
               </Nav.Link>
-              <Nav.Link href="">instagram</Nav.Link>
-              <Nav.Link href="/">home</Nav.Link>
+              <Nav.Link href="" className="right-nav-text-mobile">
+                instagram
+              </Nav.Link>
             </Nav>
           </div>
-          <div className="footer-contact">
+          <div className="footer-title-wrapper">
             <Button
               href="mailto:bonniekhill94@gmail.com"
               className="contact-btn"

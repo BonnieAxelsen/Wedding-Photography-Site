@@ -1,20 +1,32 @@
-.footer-end {
+.footer-end-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
+  padding: 2rem 7rem;
 }
 
 .footer-end p {
   color: var(--contrast-color);
-  font-size: 0.5rem;
-  text-transform: uppercase;
-  text-align: center;
+  font-family: var(--subheading-font-family);
+  font-size: 0.65rem;
   letter-spacing: 0.075rem;
   margin: 0;
-  padding: var(--border-text-sm-padding-top);
+  padding: 0;
 }
 
 .footer-end a {
   text-decoration: none;
+}
+
+@media (max-width: 540px) {
+  .footer-end-content {
+    padding: 1.5rem 3rem;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 1024px) {
+  .footer-end-content {
+    padding: 2rem 4rem;
+  }
 }
